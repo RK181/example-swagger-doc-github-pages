@@ -390,6 +390,7 @@ components:
         expire_at:
           type: string
           format: date 
+          pattern: '/^(\d{2})\/(\d{2})\/(\d{4})$/'
           maxLength: 10
           example: '01/01/1990'
         redeem:
